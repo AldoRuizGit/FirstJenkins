@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Tests for web</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tests for web</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 04 13:38:46 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>43 seconds (43557 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='imdb.ImdbTest.loadWebPageTest()'><b>loadWebPageTest</b><br>Test class: imdb.ImdbTest<br>Parameters: se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver@6db66836<br/>
+<a href="#Output-1128016570" onClick='toggleBox("Output-1128016570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1128016570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128016570">
+13:38:54.818 INFO    TEST STARTED: loadWebPageTest<br/>
+13:38:54.821 INFO    Starting test that verifies that web page is loading<br/>
+13:38:57.126 INFO    Driver loaded URL: https://www.imdb.com<br/>
+13:38:57.133 TRACE   Finding element: (By.id: navbar-query)<br/>
+13:38:57.210 TRACE   Element was present and displayed within 5000 milliseconds<br/>
+13:38:57.210 INFO    Main page loaded correctly<br/>
+13:38:57.296 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.38.54.avi<br/>
+13:38:57.296 INFO    Stopped video recording<br/>
+13:38:57.298 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/loadWebPageTest_10-04-19_13-38-57.avi<br/>
+13:38:57.299 INFO    TEST PASSED: loadWebPageTest
+<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>imdb.ImdbTest@54bff557</td></tr>
+<tr>
+<td title='imdb.ImdbTest.movieSearchTest()'><b>movieSearchTest</b><br>Test class: imdb.ImdbTest<br>Parameters: se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver@db44aa2<br/>
+<a href="#Output-913928360" onClick='toggleBox("Output-913928360", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-913928360" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-913928360">
+13:39:04.165 INFO    TEST STARTED: movieSearchTest<br/>
+13:39:04.166 INFO    Starting movie search test<br/>
+13:39:06.297 INFO    Driver loaded URL: https://www.imdb.com<br/>
+13:39:06.299 TRACE   Finding element: (By.id: navbar-query)<br/>
+13:39:06.365 TRACE   Element was present and displayed within 5000 milliseconds<br/>
+13:39:06.367 INFO    Main page loaded correctly<br/>
+13:39:06.368 INFO    Entering: 'Breaking Bad' into search box<br/>
+13:39:07.682 TRACE   Finding element: (By.id: navbar-submit-button)<br/>
+13:39:07.786 TRACE   Element was clickable within 5000 milliseconds<br/>
+13:39:09.171 TRACE   Clicked element: (id: navbar-submit-button)<br/>
+13:39:09.172 INFO    Selecting top search result<br/>
+13:39:09.172 TRACE   Finding element: (By.xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)<br/>
+13:39:09.249 TRACE   Element was clickable within 5000 milliseconds<br/>
+13:39:12.199 TRACE   Clicked element: (xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)<br/>
+13:39:12.200 INFO    Verifying that result page is loaded by checking that title header is visible<br/>
+13:39:12.200 TRACE   Finding element: (By.xpath: //*[@id="title-overview-widget"]/div[1]/div[2]/div/div[2]/div[2]/h1)<br/>
+13:39:12.323 TRACE   Element was present and displayed within 5000 milliseconds<br/>
+13:39:12.324 INFO    Title header visible<br/>
+13:39:12.324 INFO    Checking if result page title matches search<br/>
+13:39:12.379 TRACE   Text('Breaking Bad') was present in element within 5000 milliseconds<br/>
+13:39:12.380 INFO    Result page title is correct<br/>
+13:39:12.475 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.04.avi<br/>
+13:39:12.476 INFO    Stopped video recording<br/>
+13:39:12.480 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/movieSearchTest_10-04-19_13-39-12.avi<br/>
+13:39:12.481 INFO    TEST PASSED: movieSearchTest
+<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>imdb.ImdbTest@54bff557</td></tr>
+<tr>
+<td title='imdb.ImdbTest.signInTest()'><b>signInTest</b><br>Test class: imdb.ImdbTest<br>Parameters: se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver@2de366bb<br/>
+<a href="#Output-1080074703" onClick='toggleBox("Output-1080074703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1080074703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1080074703">
+13:39:19.094 INFO    TEST STARTED: signInTest<br/>
+13:39:19.094 INFO    Starting sign in test using IMDb account<br/>
+13:39:21.047 INFO    Driver loaded URL: https://www.imdb.com<br/>
+13:39:21.048 TRACE   Finding element: (By.id: navbar-query)<br/>
+13:39:21.105 TRACE   Element was present and displayed within 5000 milliseconds<br/>
+13:39:21.106 INFO    Main page loaded correctly<br/>
+13:39:21.106 INFO    Clicking sign in button<br/>
+13:39:21.106 TRACE   Finding element: (By.id: imdb-signin-link)<br/>
+13:39:21.171 TRACE   Element was clickable within 5000 milliseconds<br/>
+13:39:22.004 TRACE   Clicked element: (id: imdb-signin-link)<br/>
+13:39:22.004 INFO    Clicking sign in with IMDb<br/>
+13:39:22.005 TRACE   Finding element: (By.xpath: //*[@id="signin-options"]/div/div[1]/a[1])<br/>
+13:39:22.078 TRACE   Element was clickable within 5000 milliseconds<br/>
+13:39:22.743 TRACE   Clicked element: (xpath: //*[@id="signin-options"]/div/div[1]/a[1])<br/>
+13:39:22.744 TRACE   Finding element: (By.id: ap_email)<br/>
+13:39:22.790 TRACE   Element was present and displayed within 5000 milliseconds<br/>
+13:39:22.790 INFO    Sign-In page loaded correctly<br/>
+13:39:22.791 INFO    Entering username and password<br/>
+13:39:25.110 TRACE   Finding element: (By.id: ap_password)<br/>
+13:39:26.220 TRACE   Finding element: (By.id: signInSubmit)<br/>
+13:39:26.284 TRACE   Element was clickable within 5000 milliseconds<br/>
+13:39:29.173 TRACE   Clicked element: (id: signInSubmit)<br/>
+13:39:29.174 TRACE   Finding element: (By.id: navbar-query)<br/>
+13:39:29.235 TRACE   Element was present and displayed within 5000 milliseconds<br/>
+13:39:29.235 INFO    Main page loaded correctly<br/>
+13:39:29.305 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.19.avi<br/>
+13:39:29.306 INFO    Stopped video recording<br/>
+13:39:29.312 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/signInTest_10-04-19_13-39-29.avi<br/>
+13:39:29.312 INFO    TEST PASSED: signInTest
+<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>imdb.ImdbTest@54bff557</td></tr>
+</table><p>
+</body>
+</html>

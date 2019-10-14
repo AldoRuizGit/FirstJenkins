@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- Properties -->
+    <properties>
+        <property name="url_mainpage" value="https://www.imdb.com"/>
+        <property name="config.appium.automated" value="true" />
+        <property name="config.video.record" value="true"/>
+    </properties>
+
+    <!-- Email -->
+    <emails>
+        <email name="gmail" host="smtp.gmail.com" port="465" socketFactoryPort="465"
+               socketFactory="javax.net.ssl.SSLSocketFactory" auth="true" />
+    </emails>
+
+    <!-- Users -->
+    <users>
+        <user id="" pin="" role="user" username="johndoe.automationtest@gmail.com" password="Autotester1234" />
+    </users>
+
+    <!-- Drivers -->
+    <drivers>
+        <driver id="chromedriver" type="ChromeDriver" version="76"/>
+        <driver id="chromedriver_headless" type="ChromeDriver">
+            <option name="runHeadless" value="true" />
+        </driver>
+
+        <driver id="android_pixel3_emulator_app" type="AndroidDriver" url="http://127.0.0.1:4723/wd/hub">
+            <capability name="deviceType" value="phone" />
+            <capability name="platformName" value="Android" />
+            <capability name="deviceName" value="emulator-5554" />
+            <capability name="automationName" value="uiautomator2"/>
+            <capability name="autoGrantPermissions" value="true"/>
+            <capability name="appPackage" value="com.imdb.mobile"/>
+            <capability name="appActivity" value=".HomeActivity"/>
+        </driver>
+
+        <driver id="android_pixel3_emulator_web" type="AndroidDriver" url="http://127.0.0.1:4723/wd/hub">
+            <capability name="deviceType" value="phone" />
+            <capability name="platformName" value="Android" />
+            <capability name="deviceName" value="emulator-5554" />
+
+            <capability name="autoGrantPermissions" value="true"/>
+            <capability name="browserName" value="Chrome"/>
+        </driver>
+
+
+    </drivers>
+
+
+
+</config>

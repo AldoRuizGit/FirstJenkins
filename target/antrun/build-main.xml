@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <touch file="testng_xml_temp.xml"/>
+  <echo file="testng_xml_temp.xml" append="false">${env.TESTNG_XML}</echo>
+</target>
+</project>

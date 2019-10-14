@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- Properties -->
+    <properties>
+        <property name="url.loginpage" value="https://twitter.com/login"/>
+        <property name="url.user" value="https://twitter.com/johndoe58529659"/>
+        <property name="url.twitter" value="https://twitter.com/"/>
+
+        <property name="tweet.testMessage" value="Hello world!"/>
+        <property name="login.header" value="Log in to Twitter"/>
+    </properties>
+
+    <!-- Email -->
+    <emails>
+        <email name="gmail" host="smtp.gmail.com" port="465" socketFactoryPort="465"
+                 socketFactory="javax.net.ssl.SSLSocketFactory" auth="true"/>
+    </emails>
+
+
+    <!-- Users -->
+    <users>
+        <user id="" pin="" role="user" username="johndoe58529659" password="password1234" />
+    </users>
+
+    <!-- Drivers -->
+    <drivers>
+        <driver id="chromedriver" type="ChromeDriver" version="75"/>
+        <driver id="chromedriver_headless" type="ChromeDriver">
+            <option name="runHeadless" value="true" />
+        </driver>
+    </drivers>
+
+</config>

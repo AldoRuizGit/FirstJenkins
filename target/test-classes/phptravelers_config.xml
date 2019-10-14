@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- Properties -->
+    <properties>
+        <property name="url.mainpage" value="https://www.phptravels.net/demo/"/>
+
+    </properties>
+
+    <!-- Email -->
+    <emails>
+
+    </emails>
+
+
+    <!-- Users -->
+    <users>
+        <user id="" pin="" role="user" username="user@phptravels.com" password="demouser" />
+    </users>
+
+    <!-- Drivers -->
+    <drivers>
+        <driver id="chromedriver" type="ChromeDriver" version="75"/>
+        <driver id="chromedriver_headless" type="ChromeDriver">
+            <option name="runHeadless" value="true" />
+        </driver>
+
+        <driver id="internetexplorerdriver" type="InternetExplorerDriver" version="3.9.0" />
+
+        <driver id="edgedriver" type="EdgeDriver" version="77.0.223.0"/>
+        <!-- sample firefoxdriver configuration which works with FF 52 and selenium 3. for FF latest must verify compatibility with geckodriver -->
+        <driver id="firefoxdriver" type="FirefoxDriver" />
+    </drivers>
+
+</config>

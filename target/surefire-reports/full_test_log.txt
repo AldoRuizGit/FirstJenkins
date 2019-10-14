@@ -1,0 +1,95 @@
+13:38:46:735 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+13:38:47:162 INFO  [ImdbAppTest         ] - configId: chromedriver
+13:38:47:164 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+13:38:47:165 INFO  [BaseTestSuite       ] - Attempting to use version 76 for webdriver ChromeDriver.
+13:38:48:110 INFO  [ImdbTest            ] - INIT CLASS: ImdbTest
+13:38:48:114 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+13:38:48:119 INFO  [ImdbTest            ] - configId: chromedriver
+13:38:48:127 INFO  [Setup               ] - Initializing ChromeDriver
+13:38:50:972 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+13:38:53:474 INFO  [EventHandler        ] - Driver loaded URL: https://www.imdb.com
+13:38:54:692 INFO  [VideoRecording      ] - Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/
+13:38:54:818 INFO  [VideoRecording      ] - Start Video recording
+13:38:54:818 INFO  [BaseTestListener    ] - TEST STARTED: loadWebPageTest
+13:38:54:821 INFO  [ImdbTest            ] - Starting test that verifies that web page is loading
+13:38:57:126 INFO  [EventHandler        ] - Driver loaded URL: https://www.imdb.com
+13:38:57:133 TRACE [EventHandler        ] - Finding element: (By.id: navbar-query)
+13:38:57:210 TRACE [Presence            ] - Element was present and displayed within 5000 milliseconds
+13:38:57:210 INFO  [MainPageWeb         ] - Main page loaded correctly
+13:38:57:296 INFO  [VideoRecording      ] - Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.38.54.avi
+13:38:57:296 INFO  [VideoRecording      ] - Stopped video recording
+13:38:57:298 INFO  [VideoRecording      ] - Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/loadWebPageTest_10-04-19_13-38-57.avi
+13:38:57:299 INFO  [BaseTestListener    ] - TEST PASSED: loadWebPageTest
+
+13:38:57:300 INFO  [ImdbTest            ] - CLOSING CHROMEDRIVER: loadWebPageTest
+13:38:58:203 INFO  [ImdbTest            ] - configId: chromedriver
+13:38:58:204 INFO  [Setup               ] - Initializing ChromeDriver
+13:39:00:633 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+13:39:02:978 INFO  [EventHandler        ] - Driver loaded URL: https://www.imdb.com
+13:39:04:159 INFO  [VideoRecording      ] - Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/
+13:39:04:164 INFO  [VideoRecording      ] - Start Video recording
+13:39:04:165 INFO  [BaseTestListener    ] - TEST STARTED: movieSearchTest
+13:39:04:166 INFO  [ImdbTest            ] - Starting movie search test
+13:39:06:297 INFO  [EventHandler        ] - Driver loaded URL: https://www.imdb.com
+13:39:06:299 TRACE [EventHandler        ] - Finding element: (By.id: navbar-query)
+13:39:06:365 TRACE [Presence            ] - Element was present and displayed within 5000 milliseconds
+13:39:06:367 INFO  [MainPageWeb         ] - Main page loaded correctly
+13:39:06:368 INFO  [MainPageWeb         ] - Entering: 'Breaking Bad' into search box
+13:39:07:682 TRACE [EventHandler        ] - Finding element: (By.id: navbar-submit-button)
+13:39:07:786 TRACE [Presence            ] - Element was clickable within 5000 milliseconds
+13:39:09:171 TRACE [EventHandler        ] - Clicked element: (id: navbar-submit-button)
+13:39:09:172 INFO  [MainPageWeb         ] - Selecting top search result
+13:39:09:172 TRACE [EventHandler        ] - Finding element: (By.xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)
+13:39:09:249 TRACE [Presence            ] - Element was clickable within 5000 milliseconds
+13:39:12:199 TRACE [EventHandler        ] - Clicked element: (xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)
+13:39:12:200 INFO  [ResultPageWeb       ] - Verifying that result page is loaded by checking that title header is visible
+13:39:12:200 TRACE [EventHandler        ] - Finding element: (By.xpath: //*[@id="title-overview-widget"]/div[1]/div[2]/div/div[2]/div[2]/h1)
+13:39:12:323 TRACE [Presence            ] - Element was present and displayed within 5000 milliseconds
+13:39:12:324 INFO  [ResultPageWeb       ] - Title header visible
+13:39:12:324 INFO  [ResultPageWeb       ] - Checking if result page title matches search
+13:39:12:379 TRACE [Presence            ] - Text('Breaking Bad') was present in element within 5000 milliseconds
+13:39:12:380 INFO  [ResultPageWeb       ] - Result page title is correct
+13:39:12:475 INFO  [VideoRecording      ] - Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.04.avi
+13:39:12:476 INFO  [VideoRecording      ] - Stopped video recording
+13:39:12:480 INFO  [VideoRecording      ] - Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/movieSearchTest_10-04-19_13-39-12.avi
+13:39:12:481 INFO  [BaseTestListener    ] - TEST PASSED: movieSearchTest
+
+13:39:12:483 INFO  [ImdbTest            ] - CLOSING CHROMEDRIVER: movieSearchTest
+13:39:13:368 INFO  [ImdbTest            ] - configId: chromedriver
+13:39:13:369 INFO  [Setup               ] - Initializing ChromeDriver
+13:39:15:847 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+13:39:17:920 INFO  [EventHandler        ] - Driver loaded URL: https://www.imdb.com
+13:39:19:091 INFO  [VideoRecording      ] - Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/
+13:39:19:093 INFO  [VideoRecording      ] - Start Video recording
+13:39:19:094 INFO  [BaseTestListener    ] - TEST STARTED: signInTest
+13:39:19:094 INFO  [ImdbTest            ] - Starting sign in test using IMDb account
+13:39:21:047 INFO  [EventHandler        ] - Driver loaded URL: https://www.imdb.com
+13:39:21:048 TRACE [EventHandler        ] - Finding element: (By.id: navbar-query)
+13:39:21:105 TRACE [Presence            ] - Element was present and displayed within 5000 milliseconds
+13:39:21:106 INFO  [MainPageWeb         ] - Main page loaded correctly
+13:39:21:106 INFO  [MainPageWeb         ] - Clicking sign in button
+13:39:21:106 TRACE [EventHandler        ] - Finding element: (By.id: imdb-signin-link)
+13:39:21:171 TRACE [Presence            ] - Element was clickable within 5000 milliseconds
+13:39:22:004 TRACE [EventHandler        ] - Clicked element: (id: imdb-signin-link)
+13:39:22:004 INFO  [MainPageWeb         ] - Clicking sign in with IMDb
+13:39:22:005 TRACE [EventHandler        ] - Finding element: (By.xpath: //*[@id="signin-options"]/div/div[1]/a[1])
+13:39:22:078 TRACE [Presence            ] - Element was clickable within 5000 milliseconds
+13:39:22:743 TRACE [EventHandler        ] - Clicked element: (xpath: //*[@id="signin-options"]/div/div[1]/a[1])
+13:39:22:744 TRACE [EventHandler        ] - Finding element: (By.id: ap_email)
+13:39:22:790 TRACE [Presence            ] - Element was present and displayed within 5000 milliseconds
+13:39:22:790 INFO  [SignInPageWeb       ] - Sign-In page loaded correctly
+13:39:22:791 INFO  [SignInPageWeb       ] - Entering username and password
+13:39:25:110 TRACE [EventHandler        ] - Finding element: (By.id: ap_password)
+13:39:26:220 TRACE [EventHandler        ] - Finding element: (By.id: signInSubmit)
+13:39:26:284 TRACE [Presence            ] - Element was clickable within 5000 milliseconds
+13:39:29:173 TRACE [EventHandler        ] - Clicked element: (id: signInSubmit)
+13:39:29:174 TRACE [EventHandler        ] - Finding element: (By.id: navbar-query)
+13:39:29:235 TRACE [Presence            ] - Element was present and displayed within 5000 milliseconds
+13:39:29:235 INFO  [MainPageWeb         ] - Main page loaded correctly
+13:39:29:305 INFO  [VideoRecording      ] - Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.19.avi
+13:39:29:306 INFO  [VideoRecording      ] - Stopped video recording
+13:39:29:312 INFO  [VideoRecording      ] - Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/signInTest_10-04-19_13-39-29.avi
+13:39:29:312 INFO  [BaseTestListener    ] - TEST PASSED: signInTest
+
+13:39:29:315 INFO  [ImdbTest            ] - CLOSING CHROMEDRIVER: signInTest
+13:39:30:288 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web

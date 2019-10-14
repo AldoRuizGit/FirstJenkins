@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="11" total="14" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[13:38:46.735 INFO    STARTING TESTSUITE: Tests for web]]>
+    </line>
+    <line>
+      <![CDATA[13:38:47.162 INFO    configId: chromedriver]]>
+    </line>
+    <line>
+      <![CDATA[13:38:47.164 INFO    Initializing testsuite, should only run once per]]>
+    </line>
+    <line>
+      <![CDATA[13:38:47.165 INFO    Attempting to use version 76 for webdriver ChromeDriver.]]>
+    </line>
+    <line>
+      <![CDATA[13:38:48.110 INFO    INIT CLASS: ImdbTest]]>
+    </line>
+    <line>
+      <![CDATA[13:38:48.114 INFO    Setting debugLevel to IMAGES_FAIL]]>
+    </line>
+    <line>
+      <![CDATA[13:38:48.119 INFO    configId: chromedriver]]>
+    </line>
+    <line>
+      <![CDATA[13:38:48.127 INFO    Initializing ChromeDriver]]>
+    </line>
+    <line>
+      <![CDATA[13:38:50.972 INFO    Setting implicit wait to 0 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:38:53.474 INFO    Driver loaded URL: https://www.imdb.com]]>
+    </line>
+    <line>
+      <![CDATA[13:38:54.692 INFO    Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/]]>
+    </line>
+    <line>
+      <![CDATA[13:38:54.818 INFO    Start Video recording]]>
+    </line>
+    <line>
+      <![CDATA[13:38:54.818 INFO    TEST STARTED: loadWebPageTest]]>
+    </line>
+    <line>
+      <![CDATA[13:38:54.821 INFO    Starting test that verifies that web page is loading]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.126 INFO    Driver loaded URL: https://www.imdb.com]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.133 TRACE   Finding element: (By.id: navbar-query)]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.210 TRACE   Element was present and displayed within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.210 INFO    Main page loaded correctly]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.296 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.38.54.avi]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.296 INFO    Stopped video recording]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.298 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/loadWebPageTest_10-04-19_13-38-57.avi]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.299 INFO    TEST PASSED: loadWebPageTest
+]]>
+    </line>
+    <line>
+      <![CDATA[13:38:57.300 INFO    CLOSING CHROMEDRIVER: loadWebPageTest]]>
+    </line>
+    <line>
+      <![CDATA[13:38:58.203 INFO    configId: chromedriver]]>
+    </line>
+    <line>
+      <![CDATA[13:38:58.204 INFO    Initializing ChromeDriver]]>
+    </line>
+    <line>
+      <![CDATA[13:39:00.633 INFO    Setting implicit wait to 0 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:02.978 INFO    Driver loaded URL: https://www.imdb.com]]>
+    </line>
+    <line>
+      <![CDATA[13:39:04.159 INFO    Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/]]>
+    </line>
+    <line>
+      <![CDATA[13:39:04.164 INFO    Start Video recording]]>
+    </line>
+    <line>
+      <![CDATA[13:39:04.165 INFO    TEST STARTED: movieSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[13:39:04.166 INFO    Starting movie search test]]>
+    </line>
+    <line>
+      <![CDATA[13:39:06.297 INFO    Driver loaded URL: https://www.imdb.com]]>
+    </line>
+    <line>
+      <![CDATA[13:39:06.299 TRACE   Finding element: (By.id: navbar-query)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:06.365 TRACE   Element was present and displayed within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:06.367 INFO    Main page loaded correctly]]>
+    </line>
+    <line>
+      <![CDATA[13:39:06.368 INFO    Entering: 'Breaking Bad' into search box]]>
+    </line>
+    <line>
+      <![CDATA[13:39:07.682 TRACE   Finding element: (By.id: navbar-submit-button)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:07.786 TRACE   Element was clickable within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:09.171 TRACE   Clicked element: (id: navbar-submit-button)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:09.172 INFO    Selecting top search result]]>
+    </line>
+    <line>
+      <![CDATA[13:39:09.172 TRACE   Finding element: (By.xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:09.249 TRACE   Element was clickable within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.199 TRACE   Clicked element: (xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.200 INFO    Verifying that result page is loaded by checking that title header is visible]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.200 TRACE   Finding element: (By.xpath: //*[@id="title-overview-widget"]/div[1]/div[2]/div/div[2]/div[2]/h1)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.323 TRACE   Element was present and displayed within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.324 INFO    Title header visible]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.324 INFO    Checking if result page title matches search]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.379 TRACE   Text('Breaking Bad') was present in element within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.380 INFO    Result page title is correct]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.475 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.04.avi]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.476 INFO    Stopped video recording]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.480 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/movieSearchTest_10-04-19_13-39-12.avi]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.481 INFO    TEST PASSED: movieSearchTest
+]]>
+    </line>
+    <line>
+      <![CDATA[13:39:12.483 INFO    CLOSING CHROMEDRIVER: movieSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[13:39:13.368 INFO    configId: chromedriver]]>
+    </line>
+    <line>
+      <![CDATA[13:39:13.369 INFO    Initializing ChromeDriver]]>
+    </line>
+    <line>
+      <![CDATA[13:39:15.847 INFO    Setting implicit wait to 0 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:17.920 INFO    Driver loaded URL: https://www.imdb.com]]>
+    </line>
+    <line>
+      <![CDATA[13:39:19.091 INFO    Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/]]>
+    </line>
+    <line>
+      <![CDATA[13:39:19.093 INFO    Start Video recording]]>
+    </line>
+    <line>
+      <![CDATA[13:39:19.094 INFO    TEST STARTED: signInTest]]>
+    </line>
+    <line>
+      <![CDATA[13:39:19.094 INFO    Starting sign in test using IMDb account]]>
+    </line>
+    <line>
+      <![CDATA[13:39:21.047 INFO    Driver loaded URL: https://www.imdb.com]]>
+    </line>
+    <line>
+      <![CDATA[13:39:21.048 TRACE   Finding element: (By.id: navbar-query)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:21.105 TRACE   Element was present and displayed within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:21.106 INFO    Main page loaded correctly]]>
+    </line>
+    <line>
+      <![CDATA[13:39:21.106 INFO    Clicking sign in button]]>
+    </line>
+    <line>
+      <![CDATA[13:39:21.106 TRACE   Finding element: (By.id: imdb-signin-link)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:21.171 TRACE   Element was clickable within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.004 TRACE   Clicked element: (id: imdb-signin-link)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.004 INFO    Clicking sign in with IMDb]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.005 TRACE   Finding element: (By.xpath: //*[@id="signin-options"]/div/div[1]/a[1])]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.078 TRACE   Element was clickable within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.743 TRACE   Clicked element: (xpath: //*[@id="signin-options"]/div/div[1]/a[1])]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.744 TRACE   Finding element: (By.id: ap_email)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.790 TRACE   Element was present and displayed within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.790 INFO    Sign-In page loaded correctly]]>
+    </line>
+    <line>
+      <![CDATA[13:39:22.791 INFO    Entering username and password]]>
+    </line>
+    <line>
+      <![CDATA[13:39:25.110 TRACE   Finding element: (By.id: ap_password)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:26.220 TRACE   Finding element: (By.id: signInSubmit)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:26.284 TRACE   Element was clickable within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.173 TRACE   Clicked element: (id: signInSubmit)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.174 TRACE   Finding element: (By.id: navbar-query)]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.235 TRACE   Element was present and displayed within 5000 milliseconds]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.235 INFO    Main page loaded correctly]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.305 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.19.avi]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.306 INFO    Stopped video recording]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.312 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/signInTest_10-04-19_13-39-29.avi]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.312 INFO    TEST PASSED: signInTest
+]]>
+    </line>
+    <line>
+      <![CDATA[13:39:29.315 INFO    CLOSING CHROMEDRIVER: signInTest]]>
+    </line>
+  </reporter-output>
+  <suite name="Chrome API testsuite" duration-ms="43557" started-at="2019-10-04T11:38:46Z" finished-at="2019-10-04T11:39:30Z">
+    <groups>
+      <group name="WEB">
+        <method signature="ImdbTest.loadWebPageTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="loadWebPageTest" class="imdb.ImdbTest"/>
+        <method signature="ImdbTest.movieSearchTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="movieSearchTest" class="imdb.ImdbTest"/>
+        <method signature="ImdbTest.signInTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="signInTest" class="imdb.ImdbTest"/>
+      </group> <!-- WEB -->
+      <group name="MOBILE">
+        <method signature="ImdbTest.loadWebPageTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="loadWebPageTest" class="imdb.ImdbTest"/>
+        <method signature="ImdbTest.movieSearchTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="movieSearchTest" class="imdb.ImdbTest"/>
+        <method signature="ImdbTest.signInTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="signInTest" class="imdb.ImdbTest"/>
+      </group> <!-- MOBILE -->
+    </groups>
+    <test name="Tests for web" duration-ms="43557" started-at="2019-10-04T11:38:46Z" finished-at="2019-10-04T11:39:30Z">
+      <class name="imdb.ImdbAppTest">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:imdb.ImdbAppTest@14555e0a]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2019-10-04T11:38:46Z" finished-at="2019-10-04T11:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@466cf502]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@b7a1e02b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initSuite(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:imdb.ImdbAppTest@14555e0a]" name="initSuite" is-config="true" duration-ms="1351" started-at="2019-10-04T11:38:46Z" finished-at="2019-10-04T11:38:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@466cf502]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config_imdb.xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:38:47.162 INFO    configId: chromedriver]]>
+            </line>
+            <line>
+              <![CDATA[13:38:47.164 INFO    Initializing testsuite, should only run once per]]>
+            </line>
+            <line>
+              <![CDATA[13:38:47.165 INFO    Attempting to use version 76 for webdriver ChromeDriver.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method status="PASS" signature="closeSuite()[pri:0, instance:imdb.ImdbAppTest@14555e0a]" name="closeSuite" is-config="true" duration-ms="6" started-at="2019-10-04T11:39:30Z" finished-at="2019-10-04T11:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuite -->
+      </class> <!-- imdb.ImdbAppTest -->
+      <class name="imdb.ImdbTest">
+        <test-method status="PASS" signature="initTestClass(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:imdb.ImdbTest@54bff557]" name="initTestClass" is-config="true" duration-ms="6" started-at="2019-10-04T11:38:48Z" finished-at="2019-10-04T11:38:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@466cf502]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config_imdb.xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IMAGES_FAIL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:38:48.110 INFO    INIT CLASS: ImdbTest]]>
+            </line>
+            <line>
+              <![CDATA[13:38:48.114 INFO    Setting debugLevel to IMAGES_FAIL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, org.testng.xml.XmlTest, java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:imdb.ImdbTest@54bff557]" name="beforeMethod" is-config="true" duration-ms="1287" started-at="2019-10-04T11:38:53Z" finished-at="2019-10-04T11:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@466cf502]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@b7a1e02b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void imdb.ImdbTest.loadWebPageTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2e185cd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:38:54.692 INFO    Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/]]>
+            </line>
+            <line>
+              <![CDATA[13:38:54.818 INFO    Start Video recording]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loadWebPageTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="loadWebPageTest" duration-ms="2395" started-at="2019-10-04T11:38:54Z" data-provider="getDriver" finished-at="2019-10-04T11:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver@6db66836]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:38:54.818 INFO    TEST STARTED: loadWebPageTest]]>
+            </line>
+            <line>
+              <![CDATA[13:38:54.821 INFO    Starting test that verifies that web page is loading]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.126 INFO    Driver loaded URL: https://www.imdb.com]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.133 TRACE   Finding element: (By.id: navbar-query)]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.210 TRACE   Element was present and displayed within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.210 INFO    Main page loaded correctly]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.296 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.38.54.avi]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.296 INFO    Stopped video recording]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.298 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/loadWebPageTest_10-04-19_13-38-57.avi]]>
+            </line>
+            <line>
+              <![CDATA[13:38:57.299 INFO    TEST PASSED: loadWebPageTest
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadWebPageTest -->
+        <test-method status="PASS" signature="closeWebDriver(org.testng.ITestResult)[pri:0, instance:imdb.ImdbTest@54bff557]" name="closeWebDriver" is-config="true" duration-ms="902" started-at="2019-10-04T11:38:57Z" finished-at="2019-10-04T11:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loadWebPageTest status=SUCCESS method=ImdbTest.loadWebPageTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557] output=13:38:54.818 INFO    TEST STARTED: loadWebPageTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:38:57.300 INFO    CLOSING CHROMEDRIVER: loadWebPageTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, org.testng.xml.XmlTest, java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:imdb.ImdbTest@54bff557]" name="beforeMethod" is-config="true" duration-ms="1185" started-at="2019-10-04T11:39:02Z" finished-at="2019-10-04T11:39:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@466cf502]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@b7a1e02b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void imdb.ImdbTest.movieSearchTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7e1a1da6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:39:04.159 INFO    Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/]]>
+            </line>
+            <line>
+              <![CDATA[13:39:04.164 INFO    Start Video recording]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="movieSearchTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="movieSearchTest" duration-ms="8215" started-at="2019-10-04T11:39:04Z" data-provider="getDriver" finished-at="2019-10-04T11:39:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver@db44aa2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:39:04.165 INFO    TEST STARTED: movieSearchTest]]>
+            </line>
+            <line>
+              <![CDATA[13:39:04.166 INFO    Starting movie search test]]>
+            </line>
+            <line>
+              <![CDATA[13:39:06.297 INFO    Driver loaded URL: https://www.imdb.com]]>
+            </line>
+            <line>
+              <![CDATA[13:39:06.299 TRACE   Finding element: (By.id: navbar-query)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:06.365 TRACE   Element was present and displayed within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:06.367 INFO    Main page loaded correctly]]>
+            </line>
+            <line>
+              <![CDATA[13:39:06.368 INFO    Entering: 'Breaking Bad' into search box]]>
+            </line>
+            <line>
+              <![CDATA[13:39:07.682 TRACE   Finding element: (By.id: navbar-submit-button)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:07.786 TRACE   Element was clickable within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:09.171 TRACE   Clicked element: (id: navbar-submit-button)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:09.172 INFO    Selecting top search result]]>
+            </line>
+            <line>
+              <![CDATA[13:39:09.172 TRACE   Finding element: (By.xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:09.249 TRACE   Element was clickable within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.199 TRACE   Clicked element: (xpath: //*[@id="main"]/div/div[2]/table/tbody/tr[1]/td[2]/a)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.200 INFO    Verifying that result page is loaded by checking that title header is visible]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.200 TRACE   Finding element: (By.xpath: //*[@id="title-overview-widget"]/div[1]/div[2]/div/div[2]/div[2]/h1)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.323 TRACE   Element was present and displayed within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.324 INFO    Title header visible]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.324 INFO    Checking if result page title matches search]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.379 TRACE   Text('Breaking Bad') was present in element within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.380 INFO    Result page title is correct]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.475 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.04.avi]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.476 INFO    Stopped video recording]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.480 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/movieSearchTest_10-04-19_13-39-12.avi]]>
+            </line>
+            <line>
+              <![CDATA[13:39:12.481 INFO    TEST PASSED: movieSearchTest
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- movieSearchTest -->
+        <test-method status="PASS" signature="closeWebDriver(org.testng.ITestResult)[pri:0, instance:imdb.ImdbTest@54bff557]" name="closeWebDriver" is-config="true" duration-ms="885" started-at="2019-10-04T11:39:12Z" finished-at="2019-10-04T11:39:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=movieSearchTest status=SUCCESS method=ImdbTest.movieSearchTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557] output=13:39:04.165 INFO    TEST STARTED: movieSearchTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:39:12.483 INFO    CLOSING CHROMEDRIVER: movieSearchTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, org.testng.xml.XmlTest, java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:imdb.ImdbTest@54bff557]" name="beforeMethod" is-config="true" duration-ms="1173" started-at="2019-10-04T11:39:17Z" finished-at="2019-10-04T11:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@466cf502]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@b7a1e02b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void imdb.ImdbTest.signInTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5f7f2382]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:39:19.091 INFO    Video recording is ON, Video folder: C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/]]>
+            </line>
+            <line>
+              <![CDATA[13:39:19.093 INFO    Start Video recording]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="signInTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557]" name="signInTest" duration-ms="10142" started-at="2019-10-04T11:39:19Z" data-provider="getDriver" finished-at="2019-10-04T11:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver@2de366bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:39:19.094 INFO    TEST STARTED: signInTest]]>
+            </line>
+            <line>
+              <![CDATA[13:39:19.094 INFO    Starting sign in test using IMDb account]]>
+            </line>
+            <line>
+              <![CDATA[13:39:21.047 INFO    Driver loaded URL: https://www.imdb.com]]>
+            </line>
+            <line>
+              <![CDATA[13:39:21.048 TRACE   Finding element: (By.id: navbar-query)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:21.105 TRACE   Element was present and displayed within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:21.106 INFO    Main page loaded correctly]]>
+            </line>
+            <line>
+              <![CDATA[13:39:21.106 INFO    Clicking sign in button]]>
+            </line>
+            <line>
+              <![CDATA[13:39:21.106 TRACE   Finding element: (By.id: imdb-signin-link)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:21.171 TRACE   Element was clickable within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.004 TRACE   Clicked element: (id: imdb-signin-link)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.004 INFO    Clicking sign in with IMDb]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.005 TRACE   Finding element: (By.xpath: //*[@id="signin-options"]/div/div[1]/a[1])]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.078 TRACE   Element was clickable within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.743 TRACE   Clicked element: (xpath: //*[@id="signin-options"]/div/div[1]/a[1])]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.744 TRACE   Finding element: (By.id: ap_email)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.790 TRACE   Element was present and displayed within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.790 INFO    Sign-In page loaded correctly]]>
+            </line>
+            <line>
+              <![CDATA[13:39:22.791 INFO    Entering username and password]]>
+            </line>
+            <line>
+              <![CDATA[13:39:25.110 TRACE   Finding element: (By.id: ap_password)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:26.220 TRACE   Finding element: (By.id: signInSubmit)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:26.284 TRACE   Element was clickable within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.173 TRACE   Clicked element: (id: signInSubmit)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.174 TRACE   Finding element: (By.id: navbar-query)]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.235 TRACE   Element was present and displayed within 5000 milliseconds]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.235 INFO    Main page loaded correctly]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.305 INFO    Append video record to file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target\surefire-reports\video\ScreenRecording 2019-10-04 at 13.39.19.avi]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.306 INFO    Stopped video recording]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.312 INFO    Test passed, deleting file : C:\Users\ahugo\Documents\Jenkins\workspace\FirstPigeonJob\target/surefire-reports/video/signInTest_10-04-19_13-39-29.avi]]>
+            </line>
+            <line>
+              <![CDATA[13:39:29.312 INFO    TEST PASSED: signInTest
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="closeWebDriver(org.testng.ITestResult)[pri:0, instance:imdb.ImdbTest@54bff557]" name="closeWebDriver" is-config="true" duration-ms="967" started-at="2019-10-04T11:39:29Z" finished-at="2019-10-04T11:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInTest status=SUCCESS method=ImdbTest.signInTest(se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver)[pri:0, instance:imdb.ImdbTest@54bff557] output=13:39:19.094 INFO    TEST STARTED: signInTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[13:39:29.315 INFO    CLOSING CHROMEDRIVER: signInTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- imdb.ImdbTest -->
+    </test> <!-- Tests for web -->
+  </suite> <!-- Chrome API testsuite -->
+</testng-results>

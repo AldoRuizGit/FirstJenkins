@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name='Chrome API testsuite' verbose='1' >
+    <!--Includes tests that contains the groups chrome or browser-->
+    <method-selectors>
+        <method-selector>
+            <script language="beanshell"><![CDATA[return
+                   groups.containsKey("MOBILE");]]></script>
+        </method-selector>
+    </method-selectors>
+    <test name='Tests for web' parallel="methods" thread-count="1">
+        <parameter name='configurationId' value='android_pixel3_emulator_web'></parameter>
+        <parameter name='propertiesFile' value='config_imdb.xml'></parameter>
+        <parameter name="debugLevel" value="IMAGES_FAIL"/>
+        <packages>
+            <package name="imdb.*"/>
+        </packages>
+    </test>
+</suite>

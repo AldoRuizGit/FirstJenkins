@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- Properties -->
+    <properties>
+        <property name="config.appium.automated" value="true" />
+    </properties>
+
+    <!-- Email -->
+    <emails>
+        <email name="gmail" host="smtp.gmail.com" port="465" socketFactoryPort="465"
+               socketFactory="javax.net.ssl.SSLSocketFactory" auth="true" />
+    </emails>
+
+    <!-- Users -->
+    <users>
+        <user id="" pin="" role="user" username="sampleuser" password="abc123" />
+    </users>
+
+    <!-- Drivers -->
+    <drivers>
+        <driver id="android_galaxy_s10" type="AndroidDriver" url="http://127.0.0.1:4723/wd/hub">
+            <capability name="deviceType" value="phone" />
+            <capability name="platformName" value="Android" />
+            <capability name="deviceName" value="RF8M20CMDRW" />
+            <capability name="appPackage" value="com.google.android.calculator"/>
+            <capability name="appActivity" value="com.android.calculator2.Calculator"/>
+        </driver>
+
+        <driver id="android_pixel3_emulator" type="AndroidDriver" url="http://127.0.0.1:4723/wd/hub">
+            <capability name="deviceType" value="phone" />
+            <capability name="platformName" value="Android" />
+            <capability name="deviceName" value="emulator-5554" />
+            <capability name="automationName" value="uiautomator2"/>
+<!--            <capability name="app" type="resource" value="Calculator.apk"/>-->
+            <capability name="appPackage" value="com.google.android.calculator"/>
+            <capability name="appActivity" value="com.android.calculator2.Calculator"/>
+        </driver>
+
+        <driver id="android_pixel2_emulator" type="AndroidDriver" url="http://127.0.0.1:4723/wd/hub">
+        <capability name="deviceType" value="phone" />
+        <capability name="platformName" value="Android" />
+        <capability name="deviceName" value="emulator-5556" />
+        <capability name="browserName" value="" />
+
+        <capability name="appPackage" value="com.google.android.calculator"/>
+        <capability name="appActivity" value="com.android.calculator2.Calculator"/>
+        <option name="" type="" value=""></option>
+        </driver>
+
+    </drivers>
+
+
+
+</config>
